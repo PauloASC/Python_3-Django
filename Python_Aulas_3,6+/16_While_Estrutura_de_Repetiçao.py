@@ -7,6 +7,8 @@
 
 # Podemos criar condiçoes que podem sozinhas interromper um loop. Por exemplo criando um 
 # contador que conte até 100. Ele inicia em 0 e o loop faz com que ele va aumentando de 1 em 1
+# Se você utilizar menor e não menor igual a contagem sera feita até 99, pois no numero limite
+# no caso 100, ele se tornara falso pois é apenas menor e 100  não é menor que 100
 x = 0
 while x <= 100:
     print(x)
